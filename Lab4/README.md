@@ -35,5 +35,5 @@ When it came to accessing the large container, I ended up having to create a bra
 
 Also, in my old lab structure, I used a fake bullet for the single genre entry as opposed to using unordered list items. Thus, I ended up having to change the JSON Genre array structure (I read that arrays are unordered and can't be accessed by index) to a single value, so that I could just grab a single value that would be consistent with my lab 2 output.
 
-I learned (the painful and hard way) that my small decisions and corner-cutting from before will almost certainly bite me in the ass. I doubt I'll forget the importance of keeping unique IDs as unique, or the 
+I learned (the painful and hard way) that my small decisions and corner-cutting from before will almost certainly bite me in the ass. I doubt I'll forget the importance of keeping unique IDs as unique. In fact, just about everything from my lab2 assignment I did wrong will haunt my thoughts in the future.
 
