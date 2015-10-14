@@ -1,0 +1,268 @@
+html {
+	font-family:sans-serif;
+}
+
+div.container {
+	border:2px solid black;
+	color:black;
+	width:1400px;
+}
+
+div.header {
+	height:32px;
+	width:1280px;
+	color:black;
+	margin:20px;
+	padding:10px;
+}
+
+div.song {
+	background-color:gray;
+	border:2px solid black;
+	height:128px;
+	width:1280px;
+	color:black;
+	margin:20px;
+	padding:10px;
+	font-weight: normal;
+}
+
+p.eof {
+	font-size:16px;
+	font-style:italic;
+	color:#666;
+	text-align:center;
+}
+
+#center-me {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#center-me2 {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul {
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ul li {
+	display:inline;
+	text-align:center;
+}
+
+li.artist {
+	font-size:24px;
+	font-weight: bold;
+}
+
+li.album {
+	font-size:24px;
+	font-style:italic;
+}
+
+li.genre{
+	font-size:16px;
+	list-style-type: circle;
+}
+
+li.genre:before {
+	content:'\00a0\2022\00a0\00a0';
+	color:#000;	
+	color:rgba(0,0,0,0,0.5);
+	font-size:16px;
+}
+
+li.release {
+	font-size:16px;
+}
+
+li.sclink{
+	font-size:24px;
+}
+
+li.songtitle{
+	font-size:24px;
+	font-variant:small-caps
+}
+
+li.topoff{
+	font-size:24px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+img.albumpic {
+	border:1px solid gray;
+	height:100px;
+	width:100px;
+  top: 50%;
+  transform: translateY(-10%);
+}
+
+
+/* -------------------------------------------------------- */
+      /**
+       * Nested equal-height columns.
+       * Credit: Matthew James Taylor, 2008
+			 * Edit: Peter Ko, 2015
+       * More info at http://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks
+       */
+
+			/* 
+			
+			Matthew Taylor created this to show an example for equal height 
+			columns for three. I plan on repurposing it to fill all of my columns 
+			for my song playlist.
+			
+			As per the instructions of the lab, I will need seven columns of relatively equal width.
+			
+			*/
+			 
+      /* These containers are intended to be the background. */
+
+      /* This is the bottom-most container. It will inherit the height of 
+      container-mid floated within it. */
+      #container-1col {
+        float:left;
+        width:100%;
+        position:relative;
+        overflow:hidden;
+				
+				top: 50%;
+				transform: translateY(-50%);
+      }
+
+      #container-2col {
+        float:left;
+        width:100%;
+
+        /* Slide from the right (to the left) the amount of your last col. */
+        position:relative;
+        right:14%;
+      }
+      #container-3col {
+        float:left;
+        width:100%;
+
+        /* Slide from the right (to the left) the amount of your last col. */
+        position:relative;
+        right:14%;
+      }
+      #container-4col {
+        float:left;
+        width:100%;
+
+        /* Slide from the right (to the left) the amount of your last col. */
+        position:relative;
+        right:14%;
+      }
+      #container-5col {
+        float:left;
+        width:100%;
+
+        /* Slide from the right (to the left) the amount of your last col. */
+        position:relative;
+        right:14%;
+      }
+      #container-6col {
+        float:left;
+        width:100%;
+
+        /* Slide from the right (to the left) the amount of your last col. */
+        position:relative;
+        right:14%;
+      }
+			
+			
+      /* This is the top-most container, wrapping our columns. It will inherit
+      the height of its largest floated child, passing this height on to each
+      wrapper above. */
+      #container-7col {
+        float:left;
+        width:100%;
+
+        /* Slide from the right (to the left) the amount of your middle col. */
+        position:relative;
+        right:16%;
+      }
+
+
+      /* Containers 1-3 will expand to the largest of these three. */
+      #a-col {
+        float:left;
+        /* width:30%; plus 1% spacing on each side */
+        width:14%;
+
+
+        /* Everything is now shifted to the left 70%, along with the topmost
+        container. We need to shift our columns back into place. */
+
+        position:relative;
+        /* left: 70%, plus 1% left spacing */
+        left:85.5%;
+
+        /* Add some padding so the text isn't pressed against each side. */
+      }
+
+      #b-col {
+        float:left;
+        /* width: 40%; plus 2% spacing */
+        width:14%;
+
+        /* Everything is now shifted to the left 70%, along with the topmost
+        container. We need to shift our columns back into place. */
+
+        position:relative;
+        /* left:70% plus 3% spacing total to the left */
+        left:87%;
+
+        /* Add some padding so the text isn't pressed against each side. */
+      }
+			
+      #c-col {
+        float:left;
+        width:14%;
+        position:relative;
+        left:88.5%;
+      }
+			
+			#d-col {
+        float:left;
+        width:14%;
+        position:relative;
+        left:88.5%;
+      }
+
+			#e-col {
+        float:left;
+        width:14%;
+        position:relative;
+        left:89%;
+      }
+
+			#f-col {
+        float:left;
+        width:14%;
+        position:relative;
+        left:90%;
+      }
+
+			
+      #g-col {
+        float:left;
+        /* width:30%; plus 2% spacing */
+        width:14%;
+
+        /* Everything is now shifted to the left 70%, along with the topmost
+        container. We need to shift our columns back into place. */
+
+        position:relative;
+        /* left:70%; plus 5% spacing total to the left */
+        left:89%;
+
+      }

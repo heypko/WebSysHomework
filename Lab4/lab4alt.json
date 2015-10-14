@@ -1,0 +1,34 @@
+{
+	"songs" : [
+		{
+			"title"		: "Couch Potato",
+			"artist"	: "Jakubi",
+			"album"		: "EP",
+			"art"			: "http://cdn4.unpopularlyrics.com/wp-content/uploads/2014/06/jakubi-coach-potato.jpg",
+			"date"		: "2014",
+			"site"		: "https://soundcloud.com/koberidze-nika/jakubi-couch-potato",
+			"genres"	:	["Electronic", "Funk"]
+		},
+
+		{
+			"title"		: "Madness",
+			"artist"	: "Em Rossi",
+			"album"		: "EP",
+			"art"			: "https://i1.sndcdn.com/avatars-000151377173-aax0r2-t200x200.jpg",
+			"date"		: "2015",
+			"site"		: "https://soundcloud.com/emrossimusic/madness",
+			"genres"	:	["Nu-Oldies","Phresh"]
+		},
+
+		{
+			"title"		: "Something About Us",
+			"artist"	: "Daft Punk",
+			"album"		: "Discovery",
+			"art"			: "https://i1.sndcdn.com/avatars-000084513254-zd7bft-t120x120.jpg",
+			"date"		: "2003",
+			"site"		: "https://soundcloud.com/kevin-pavanello/daft-punk-something-about-us",
+			"genres"	:	["Electro-funk", "Top-tier"]
+		}
+	]
+	
+}
