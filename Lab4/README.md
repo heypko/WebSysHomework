@@ -2,6 +2,7 @@ Peter Ko
 WebSys
 Lab 4 README
 
+GitHub Link: https://github.com/highpants/WebSysHomework/tree/master/Lab4
 
 Files Included:
 lab4-WITHFORMATTING.html
