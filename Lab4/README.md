@@ -8,6 +8,8 @@ lab4-WITHFORMATTING.html
 lab4-WITHFORMATTING.css
 lab4-WITHFORMATTING.js
 lab4-WITHFORMATTING.json
+jquery-2.1.4.js
+
 
 lab4alt.html
 lab4alt.js
